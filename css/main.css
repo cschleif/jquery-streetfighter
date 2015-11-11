@@ -1,3 +1,6 @@
+*{
+	outline: solid 1px red;
+	} 
 body {
 	background-color: black;
 }
@@ -12,11 +15,12 @@ body {
 	z-index: 1;
 }
 .ryu {
-	width: 659px;
+	width: 550px;
 	height: 494px;
+	outline-color: black;
 }
 .ryu-ready, .ryu-still, .ryu-throwing {
-	width: 659px;
+	width: 550px;
 	height: 494px;
 }
 .ryu-ready, .ryu-throwing {
@@ -38,12 +42,12 @@ body {
 	background-image: url('file:///Users/codyschleif/Desktop/Projects/jquery-streetfighter/images/hadouken.gif');
 	width: 156px;
 	height: 90px;
-	/*display: none;*/
+	display: none;
 	float: left;
 	position: absolute;
 	z-index: 10;
-	top: 0px;
-	left: 0px;	
+	top: 168px;
+	left: 596px;	
 }
 
 
